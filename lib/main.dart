@@ -58,8 +58,8 @@ class _MainFormPageState extends State<MainFormPage> {
       padding: const EdgeInsets.all(10.0),
       decoration: linkBoxDecoration(), // <--- BoxDecoration here
       child: Text(
-        'Beschreibung des Programms: http://fluttercrypto.bplaced.net/aes-playground-wc',
-        //'Program description: http://fluttercrypto.bplaced.net/aes-playground',
+        'Beschreibung des Programms: http://fluttercrypto.bplaced.net/aes-playground-webcrypto/',
+        //'Program description: http://fluttercrypto.bplaced.net/aes-playground-webcrypto/',
         style: TextStyle(
           fontSize: 18,
           color: Colors.blue,
@@ -82,7 +82,7 @@ class _MainFormPageState extends State<MainFormPage> {
         '\nwebcrypto Version 0.5.2'
         '\nhttps://pub.dev/packages/webcrypto',
         style: TextStyle(
-          fontSize: 14,
+          fontSize: 18,
           color: Colors.blue,
           decoration: TextDecoration.none,
         ),
@@ -244,8 +244,7 @@ class _MainFormPageState extends State<MainFormPage> {
                   target: LinkTarget.blank, // new browser, not in app
                   // don't forget to add queries in AndroidManifest.xml
                   // and url scheme in Info.plist file
-                  //uri: Uri.parse('https://flutter.dev'),
-                  uri: Uri.parse('http://fluttercrypto.bplaced.net/aes-playground-wc/'),
+                  uri: Uri.parse('http://fluttercrypto.bplaced.net/aes-playground-webcrypto/'),
                   builder: (context, followLink) => GestureDetector(
                     onTap: followLink,
                     child: linkWidget(),

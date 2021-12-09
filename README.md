@@ -4,7 +4,7 @@ AES encryption with modes CBC and GCM
 
 version 1.0.0
 
-For more information see http://fluttercrypto.bplaced.net/aes-playground
+For more information see http://fluttercrypto.bplaced.net/aes-playground-webcrypto/
 
 ```plaintext
 
