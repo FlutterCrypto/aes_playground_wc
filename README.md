@@ -77,23 +77,23 @@ Ausgabe:
 
 ```plaintext
 {
-"algorithm": "AES-256 CBC PBKDF2",
-"iterations": "15000",
-"salt": "HFRpHumEM1VQOOYtkQPXe8FC8cMgA3uP3s8iIuvLY4s=",
-"iv": "2tVlCfaEmA1TX1BFDs3srA==",
-"ciphertext": "7vSERqidtwIEm8Lty7EDxGl4UkunTIvFkLnJDP6WRgw=",
-"gcmTag": "nicht benutzt"
+  "algorithm": "AES-256 CBC PBKDF2",
+  "iterations": "15000",
+  "salt": "DDMReRTFCryYjwgUtXQLPQWdWTkdZD+2uHrVv1n4e3Y=",
+  "iv": "RthZShR8D1wIawAekH7pTw==",
+  "ciphertext": "KQ3RO2VxHvgNKfuY4PF6iOH5BK5iM1m7yx0kQ7l5Dio=",
+  "gcmTag": "nicht benutzt"
 }
 ```
 
 ```plaintext
 {
-"algorithm": "AES-256 GCM PBKDF2",
-"iterations": "15000",
-"salt": "CxvOsOKsJQ+I0sZlFKoG1+PtM24zsZpvXhtbECRhyGE=",
-"iv": "+PVx60N3yLeoJmL2",
-"ciphertext": "lg+UZBb+3lj21AZv58B60wrFZuCUCgXj",
-"gcmTag": "stK/u/IsGzP5vgB9tpb8PA=="
+  "algorithm": "AES-256 GCM PBKDF2",
+  "iterations": "15000",
+  "salt": "6bcqCf8f3Ah+4/j5FOz2SqQWCc/cGA6PukZQrrlY0lk=",
+  "iv": "ZQSqdPS2YZLxqhx5",
+  "ciphertext": "bdDog+lCOvPCk8LkDlGajU0VqMwUJEdMRDBNvOi6/0FUTigK73THLA==",
+  "gcmTag": "an ciphertext angehängt"
 }
 ```
 
