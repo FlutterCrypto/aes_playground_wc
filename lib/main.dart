@@ -120,6 +120,7 @@ class _MainFormPageState extends State<MainFormPage> {
                 ),
                 SizedBox(height: 30),
                 DropdownButtonFormField<String>(
+                  isExpanded: true,
                   isDense: false,
                   itemHeight: 48,
                   //what you need for height
@@ -204,7 +205,7 @@ class _MainFormPageState extends State<MainFormPage> {
                         // own license
                         LicenseRegistry.addLicense(() async* {
                           yield LicenseEntryWithLineBreaks(
-                            ['FlutterCrypto AES Playground'],
+                            ['FlutterCrypto AES Playground WC'],
                             'Das Programm unterliegt keiner Lizenz und kann frei verwendet werden (Public Domain).',
                           );
                         });
