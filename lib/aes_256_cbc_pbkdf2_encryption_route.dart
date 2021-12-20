@@ -331,11 +331,11 @@ class _MyFormPageState extends State<Aes256CbcPbkdf2EncryptionRoute> {
     try {
       var plaintextUint8 = createUint8ListFromString(plaintext);
       var passphrase = createUint8ListFromString(password);
-      final PBKDF2_ITERATIONS = 15000;
+      final PBKDF2_ITERATIONS = int.tryParse(iterations);
       final key = await Pbkdf2SecretKey.importRawKey(passphrase);
       final salt = generateSalt32ByteWc();
       final derivedBits =
-      await key.deriveBits(256, Hash.sha256, salt, PBKDF2_ITERATIONS);
+      await key.deriveBits(256, Hash.sha256, salt, PBKDF2_ITERATIONS!);
       final iv = generateIv16ByteWc();
       AesCbcSecretKey aesCbcSecretKey =
       await AesCbcSecretKey.importRawKey(derivedBits);
